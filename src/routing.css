@@ -1,0 +1,35 @@
+ul{
+    background-color: black;
+    display: flex;
+    overflow: hidden;
+    z-index: -1;
+}
+
+li{
+    list-style-type: none;
+    /*display: left;*/
+    float: left;
+    margin: 5px;
+    padding: 20px;
+}
+
+li :any-link{
+    color: aqua;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+*{
+    text-decoration: none;
+}
+/*
+input[type="text"]{
+    margin-left: 700px;
+    border-radius: 10px;
+    text-align: left;
+    position: absolute;
+    top: 25px;
+    z-index: 1;
+    width: 200px;
+} 
+*/
